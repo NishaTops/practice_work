@@ -1,0 +1,122 @@
+                                              #operators
+
+#Arithmetic operators  
+
+
+num1=46
+num2=75
+print(num1+num2)
+print(num1-num2)
+print(num1*num2)
+print(num1/num2)
+print(num1%num2)
+print(num1**num2)
+print(num1//num2)
+
+
+Output:
+121
+-29
+3450
+0.6133333333333333
+46
+50914018510357730061145343023867487701832221395414379229210574355103393122030627769835115771194083009284741918386934698213376
+0
+
+
+#comparison operators:
+
+num1=76
+num2=55
+print(num1==num2)
+print(num1<num2)
+print(num1>num2)
+print(num1>=num2)
+print(num1<=num2)
+print(num1!=num2)
+print(num1//num2)
+
+
+output:
+False
+False
+True
+True
+False
+True
+1
+
+#logical operators:
+
+a=54
+b=66
+ 
+print(a<b and a>b)
+print(a>b or a<b)
+print(not(a<b and a>b))
+
+output:
+
+False
+True
+True
+
+#Bitwise operators:
+
+a=6
+b=8 
+print(a&b)
+print(a|b)
+print(a^b)
+print(a~b)
+print(a>>b)
+print(a<<b)
+
+
+output:
+0
+12
+12
+
+
+#Assigment operators:
+
+a=7
+b=8 
+print(a+=b)
+print(a-=b)
+print(a*=b)
+print(a/=b)
+print(a**b)
+print(a//=b)
+
+ #Identity operators:
+
+ a=3
+ b=6
+ print(a is b)
+ print(a is not b)
+
+ output:
+
+ False
+True
+
+
+#membership operators:
+
+code = "python"
+print('p' in code)
+print('py' in code)
+print('Py' in code)
+print('Py' not in code)
+print('pto' in code)
+
+
+output:
+
+True
+True
+False
+True
+False
