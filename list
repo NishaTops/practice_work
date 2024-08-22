@@ -1,0 +1,132 @@
+list:
+
+#List - mutable, ordered, duplicate values are allowed, indexing, slicing.
+
+#'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+
+#{1.append}
+
+l=["nisha","babu","krashnika"]
+l.append("mom")
+print(l)
+
+output:
+
+['nisha', 'babu', 'krashnika', 'mom']
+
+#{2.clear}
+
+
+l=["nisha","babu","krashnika"]
+l.clear()
+print(l)
+
+output:
+[]
+
+
+#{3.extend}
+
+
+l=["nisha","babu","krashnika"]
+l.extend(["pagal","hai","ok"])
+print(l)
+
+['nisha', 'babu', 'krashnika', 'pagal', 'hai', 'ok']
+
+
+#{4.insert}
+
+
+nums = [1,2,3,4,5]
+nums.insert(2,9)
+print(nums)
+
+output:
+[1, 2, 9, 3, 4, 5]
+
+
+
+#{5.pop}
+
+nums = [1,2,3,4,5]
+nums.pop(2)
+print(nums)
+
+
+output:
+
+[1,2,4,5]
+
+
+#{6.remove}
+
+nums = [1,2,3,4,5,6,7,8,9]
+nums.remove(8)
+print(nums)
+
+output:
+[1,2,3,4,5,6,7,9]
+
+#{7.reverse}
+
+nums = [1,2,3,4,5,6,7,8,9]
+nums.reverse()
+print(nums)
+
+nums = [1,2,3,4,5,6,7,8,9]
+print(nums.sort(reverse=True))
+print(nums)
+
+
+output:
+
+[9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+
+#{8.sort}
+
+nums = [10,9,8,7,6,5,4,3,2,1]
+print(nums.sort())
+print(nums)
+
+output:
+[1,2,3,4,5,6,7,8,9,10]
+
+#{9.copy}
+nums = [10,9,8,7,6,5,4,3,2,1]
+nums_copy=nums.copy()
+print(id(nums))
+
+output:
+
+2612974275776
+
+nums = [10,9,8,7,6,5,4,3,2,1]
+nums.copy()
+print(id(nums))
+
+output:
+
+1666313965056
+
+#{10.count}
+
+items = ['tomato', 'potato', 'onion', 'onion']
+print(items.count('onion'))
+print(items)
+
+output:
+
+2
+['tomato', 'potato', 'onion', 'onion']
+
+#{11.index}
+
+items =[11,'tomato', 'potato', 'onion', 'onion']
+num=items.index("tomato")
+print(num)
+
+output:
+
+1
