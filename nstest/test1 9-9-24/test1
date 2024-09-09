@@ -1,0 +1,45 @@
+Q.1 what is a token in python? give examples.
+Ans: Types of tokens:
+1 variables
+2 keywords
+3 identifires
+4 data Types
+
+Q.2 write a python exprerssion to add two numbers.
+Ans: a=10
+     b=5
+     sum=a+b
+     print(sum)
+
+Q.3 write
+Ans: user_n=int(input("enter number"))
+if user_nint("number not posi")
+else:
+    print("number is posi")
+
+Q.4
+
+for num in range(1,num+1)
+           print(num)
+
+Q.5
+
+
+
+
+Q.6
+
+==is the check is two value are same
+and
+
+
+Q.7
+
+
+num_s=int(input("enter number"))
+if num_s <=0:
+    print("num is odd")
+    if num_s % 2 =0:
+        print("enter a num is 1 to 9")
+        else:
+            print("num is even")
